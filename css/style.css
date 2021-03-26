@@ -18,6 +18,23 @@
 }
 /* /float left e clearfix */
 
+/* container */
+.container-width-100 {
+    width: 100%;
+    background-color: white;
+}
+
+.container-width-75 {
+    width: 75%;
+    margin: auto;
+}
+
+.container-width-45{
+    width: 45%;
+    margin: auto;
+}
+
+
 /* bar top fixed */
 .bar-top-fixed.container-width-100{
     width: 100%;
@@ -94,21 +111,8 @@ a {
     padding-right: 20px;
 }
 
-/* container */
-.container-width-100 {
-    width: 100%;
-    background-color: white;
-}
-
-.container-width-75 {
-    width: 75%;
-    margin: auto;
-}
 
 /* header */
-.header-top{
-   
-}
 
 .header-top-left {
     line-height: 100px;
@@ -132,14 +136,13 @@ a {
     padding-left: 10px;
 }
 
-.container-width-100.background-jumbotron{
-    height: 612px;
+.container-width-100.background-jumbotron {
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
     background-position: 100% 0;
     background-color: #fff5ee;
 }
-.line-jumbotron-bottom{
+.line-jumbotron-bottom {
     border-top: 3px solid #2d3e51;
     border-bottom: 3px solid #2d3e51;
     height: 90px;
@@ -147,42 +150,83 @@ a {
 
 }
 
-.header-jumbotron{
+.header-jumbotron {
     height: 612px;
     /* background-color: green; */
 }
 
-.title-text-jumbotron{
+.title-text-jumbotron {
     padding-top: 70px;
     height: 612px;
     width: 47%;
-    background-color: yellow;
+    
     /* background-color: blue; */
 }
 
-.title-text-jumbotron > h1{
+.title-text-jumbotron > h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #33475b;
     font-size: 50px;
     /* background-color: blue; */
 }
 
-.title-text-jumbotron > p{
+.title-text-jumbotron > p {
     padding-top: 40px;
+    font-weight: 600;
     line-height: 2;
     font-size: 18px;
     color: #33475b;
 }
 
+.button-large.btn-background {
+    line-height: normal;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color:#fe775a ;
+    color: white;
+}
+
 .title-text-jumbotron > a {
-    padding-top: 50px;
+    margin: 30px 0;
 }
 
 .title-text-jumbotron > .font-mini {
-    font-size: 15px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* /header */
+
+
+/* main */
+.container-main {
+    text-align: center;
+}
+
+main > div > img {
+    margin-top: 55px;
+    height: 220px;
+}
+
+main h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding: 30px 0;
+    color: #33475b;
+}
+
+main p {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #33475b;
+}
+
+.prova{
+    height: 500px;
+    background-color: yellow;
 }
 
 
-
-
-/* /header */
+/* main */
