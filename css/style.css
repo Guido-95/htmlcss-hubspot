@@ -17,11 +17,11 @@
 .container-width-100 {
     width: 100%;  
 }
-.container-width-75 {
-    width: 75%;
+.container-width-70 {
+    width: 70%;
     margin: auto;
 }
-.container-width-75.section-close{
+.container-width-70.section-close{
     margin-bottom: 70px;
 }
 .container-width-70 {
@@ -34,6 +34,7 @@
     width: 55%;
     margin: auto;
     padding-bottom: 50px;
+    padding-left: 50px;
 }
 .container-width-45 {
     width: 45%;
@@ -63,12 +64,11 @@
 }
 .bar-top-fixed-left {
     height: 80px;
-    width: 75%;
+    width: 50%;
 }
 .bar-top-fixed-right {
-    text-align: right;
-    height: 80px;
-    width: 25%;
+   text-align: right;
+    width: 50%;
 }
 .fas.fa-chevron-down.chevron-border {
     padding-right: 15px;
@@ -156,11 +156,9 @@ footer{
 ul,
 li,
 a {
-    
     text-decoration: none;
     display: inline-block;
     list-style: none;
-    
     font-size: 17px;
     color:#32495b;
 }
@@ -215,10 +213,6 @@ p{
     border-bottom: 3px solid #2d3e51;
     height: 90px;
     background-color: #afebe4;
-}
-
-.header-jumbotron {
-    height: 612px;
 }
 
 .title-text-jumbotron {
@@ -339,12 +333,12 @@ section ul > li > i{
     width: calc(33% - 30px);
     background-color: white;
     box-shadow: 1px 1px 10px;
-    padding-bottom: 18px; 
+    padding-bottom: 30px; 
 }
 
 #column2{
-    margin-left: 52px;
-    margin-right: 52px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .column > img{
@@ -434,7 +428,7 @@ section ul > li > i{
     border-right: none;
 }
 
-.container-width-75.text-align-center {
+.container-width-70.text-align-center {
     text-align:center;
 }
 
@@ -473,10 +467,10 @@ section ul > li > i{
 }
 
 .paragraph-section-4 {
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: left;
     line-height:30px;
-    padding-left: 120px;
+    padding-left: 115px;
     padding-right: 80px;
 }
 
@@ -494,7 +488,7 @@ section ul > li > i{
 }
 .row-logos-top {
     line-height: 90px;
-    padding-right: 100px;
+    padding-right: 180px;
 }
 .row-logos-top > img{
     vertical-align: middle;
@@ -504,12 +498,12 @@ section ul > li > i{
 }
 .row-logos-bot {
     line-height: 70px;
-    padding-right: 80px;
+    padding-right: 175px;
 }
 .row-logos-bot > img {
     vertical-align: middle;
-    margin-left: 15px;
-    width: 140px;
+    margin-left: 25px;
+    width: 130px;
 }
 
 .text-bottom-left > .paragraph-section-4 {
@@ -528,13 +522,14 @@ section ul > li > i{
 }
 .img-woman > img {
     margin-top: 50px;
+    margin-right: 70px;
     height: 400px;
     
 }
 /* /main */
 
 /* footer */
-.container-width-75.footer {
+.container-width-70.footer {
     padding-top: 50px;
 }
 
